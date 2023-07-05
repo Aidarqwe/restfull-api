@@ -1,0 +1,44 @@
+.form{
+    height: 50vh;
+    h1{
+        text-align: center;
+    }
+    .name, .email, .text{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+        label{
+            font-size: 20px;
+            color: #3a65ec;
+            margin-bottom: 5px;
+        }
+        input, textarea{
+            padding: 10px;
+            font-size: 18px;
+            resize: none;
+        }
+    }
+    .tick{
+        color: #3a65ec;
+        margin-bottom: 20px;
+        label{
+            cursor: pointer;
+        }
+    }
+    button{
+        font-size: 16px;
+        width: 100%;
+        padding: 10px;
+        background-color: green;
+        color: #F2F6FE;
+        border: none;
+        cursor: pointer;
+        transition: all .3s ease 0s;
+        &:hover{
+            opacity: .7;
+        }
+        &:active{
+            background-color: chartreuse;
+        }
+    }
+}
